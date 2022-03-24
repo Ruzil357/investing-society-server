@@ -99,10 +99,9 @@ app.post('/join', async (req, res) => {
       name,
       header: 'Welcome to the club!',
       content: [
-        `You're receiving this email because your email was used to sign up for the Investing Society!<br/>Join the discord server by clicking <a href="${url}" target="_blank">this link</a>. The invite will expire in 48 hours.`,
-        `If that did not work, please use the link below.<br/><a href="${url}">${url}</a>
-        <br/><br/>You can also join the WhatsApp group using <a href="https://chat.whatsapp.com/HpYmmUubvf506trJGSNyI7" target="_blank">this link</a>.<br/><br/>
-        If that did not work, please use the link below.<br/><a href="https://chat.whatsapp.com/HpYmmUubvf506trJGSNyI7">https://chat.whatsapp.com/HpYmmUubvf506trJGSNyI7</a>`,
+        `You're receiving this email because your email was used to sign up for the Investing Society!<br/>`,
+        `Join the Discord server using the link below:<br/><a href="${url}">${url}</a>
+        Join the WhatsApp group using the link below<br/><a href="https://chat.whatsapp.com/HpYmmUubvf506trJGSNyI7">https://chat.whatsapp.com/HpYmmUubvf506trJGSNyI7</a>`,
         `You can ignore this email if you did not request an invite.`,
       ],
     })
