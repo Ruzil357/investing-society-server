@@ -27,7 +27,7 @@ app.use(
     origin:
       (process.env.NODE_ENV || 'development') === 'development'
         ? 'http://localhost:3000'
-        : 'https://psn.hackclub.com',
+        : 'https://investingsociety.vercel.app',
     credentials: true,
   })
 )
