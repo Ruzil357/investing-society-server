@@ -15,7 +15,7 @@ jobs:
         uses: fjogeleit/http-request-action@master
         id: myRequest
         with:
-          url: 'https://https://investing-society.vondrr.live/admin/sanitize/'
+          url: 'https://investing-society.vondrr.live/admin/sanitize/'
           method: 'POST'
           username: ${{ secrets.BASIC_USER }}
           password: ${{ secrets.BASIC_PASSWORD }}
