@@ -100,7 +100,7 @@ app.post('/join', async (req, res) => {
       header: 'Welcome to the club!',
       content: [
         `You're receiving this email because your email was used to sign up for the Investing Society!<br/>`,
-        `Join the Discord server using the link below:<br/><a href="${url}">${url}</a>
+        `Join the Discord server using the link below:<br/><a href="${url}">${url}</a><br/><br/>
         Join the WhatsApp group using the link below<br/><a href="https://chat.whatsapp.com/HpYmmUubvf506trJGSNyI7">https://chat.whatsapp.com/HpYmmUubvf506trJGSNyI7</a>`,
         `You can ignore this email if you did not request an invite.`,
       ],
