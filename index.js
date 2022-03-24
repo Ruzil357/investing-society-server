@@ -95,12 +95,13 @@ app.post('/join', async (req, res) => {
   try {
     await sendMail({
       to: email,
-      subject: 'PSN Hack Club - Discord Invite',
+      subject: 'Investing Society - Invite',
       name,
       header: 'Welcome to the club!',
       content: [
-        `You're receiving this email because your email was used to sign up for the PSN Hack Club!<br/>Join the discord server by clicking <a href="${url}" target="_blank">this link</a>. The invite will expire in 48 hours.`,
-        `If that did not work, please use the link below.<br/><a href="${url}">${url}</a>`,
+        `You're receiving this email because your email was used to sign up for the Investing Society!<br/>Join the discord server by clicking <a href="${url}" target="_blank">this link</a>. The invite will expire in 48 hours.`,
+        `If that did not work, please use the link below.<br/><a href="${url}">${url}</a>
+        <br/><br/>You can also join the WhatsApp group using <a href="https://chat.whatsapp.com/HpYmmUubvf506trJGSNyI7" target="_blank">this link</a>`,
         `You can ignore this email if you did not request an invite.`,
       ],
     })
